@@ -1,0 +1,118 @@
+@media screen and (min-width: 768px, max-width: 900px) {
+    #learnmorepage { 
+       width: 100%;
+    }
+} 
+
+@media screen and (min-height: 1024px, max-height: 1440px) {
+    #learnmorepage { 
+        width: 100%;
+     }
+} 
+
+.melimage {
+    position: absolute;
+    width: 636px;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+  }
+
+  #learnmorepage {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 1440px;
+    height: 900px;
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+    background:#732A12;
+  }
+  
+
+  #smallrectangle { 
+    position: absolute;
+    width: 636px;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.31);
+    cursor: pointer;
+  }
+
+.career {
+    position: absolute;
+    width: 631px;
+    height: 98px;
+    left: 739px;
+    top: 0px;
+    font-family: Darker Grotesque;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.list {
+    position: absolute;
+    width: 636px;
+    height: 669px;
+    left: 719px;
+    top: 172px;
+    font-family: Darker Grotesque;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 41px;
+    text-align: center;
+    color: #BABABA;
+}
+
+.leading {
+    animation: Slide 0.5s forwards;
+}
+
+.experience {
+    animation: Slide 0.5s forwards;
+    animation-delay: 0.1s
+}
+
+.views {
+    animation: Slide 0.5s forwards;
+    animation-delay: 0.2s
+}
+
+.tvshows {
+    animation: Slide 0.5s forwards;
+    animation-delay: 0.3s
+}
+
+.performances { 
+        animation: Slide 0.5s forwards;
+        animation-delay: 0.4s
+}
+
+.press {
+    animation: Slide 0.5s forwards;
+    animation-delay: 0.5s
+}
+
+.teaching {
+    animation: Slide 0.5s forwards;
+    animation-delay: 0.6s
+}
+
+@keyframes Slide {
+    from {
+        margin-left: 100%;
+        width: 300%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+}
+

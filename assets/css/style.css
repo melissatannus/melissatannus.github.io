@@ -1,0 +1,174 @@
+@media screen and (min-width: 768px, max-width: 900px) {
+    #homepage { 
+       width: 100%;
+    }
+} 
+
+@media screen and (min-height: 1024px, max-height: 1440px) {
+    #homepage { 
+        width: 100%;
+     }
+} 
+
+#background {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+  }
+ 
+#background img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+  }
+
+#rectangle { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+    background: rgba(0, 0, 0, 0.53);
+}
+
+  .melissatannus { 
+    position: absolute;
+    width: 1083px;
+    height: 190px;
+    left: 178px;
+    top: -23px;
+    font-family: Darker Grotesque;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 144px;
+    line-height: 195px;
+    text-align: right;
+    color: #FFFFFF;
+  }
+
+
+  .professional { 
+    position: absolute;
+    width: 729px;
+    height: 92px;
+    left: 355px;
+    top: 233px;
+    font-family: Darker Grotesque;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 87px;
+    text-align: right;
+    color: #BABABA;
+  }
+
+  .morebutton { 
+    position: absolute;
+    width: 190px;
+    height: 48px;
+    left: 625px;
+    top: 418px;
+    background: #732A12;
+    font-family: Darker Grotesque;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;
+    object-position: center;
+    border: none;
+  }
+
+  .morebutton:hover { 
+    transform: scale(1.1, 1.1);
+    cursor: pointer; 
+  }
+
+
+#homepage {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+  }
+
+.facebook {
+    position: absolute;
+    left: 33.75%;
+    right: 62.5%;
+    top: 66.56%;
+    bottom: 27.44%;
+    animation: Flip 1.5s infinite;
+}
+
+.facebook:hover {
+    cursor: pointer; 
+}
+
+.twitter { 
+    position: absolute;
+    left: 43.33%;
+    right: 52.92%;
+    top: 67%;
+    bottom: 27.56%; 
+    animation: Flip 1.5s infinite;
+}
+
+.twitter:hover {
+    cursor: pointer; 
+}
+
+
+.youtube { 
+    position: absolute;
+    left: 52.92%;
+    right: 43.33%;
+    top: 67%;
+    bottom: 27.56%;
+    animation: Flip 1.5s infinite;
+}
+
+.youtube:hover {
+    cursor: pointer; 
+}
+
+.instagram { 
+    position: absolute;
+    left: 62.5%;
+    right: 33.75%;
+    top: 66.44%;
+    bottom: 27.56%;
+    animation: Flip 1.5s infinite;
+}
+
+.instagram:hover {
+    cursor: pointer; 
+}
+
+#icons { 
+    display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: left;
+}
+
+
+@keyframes Flip {
+	from { 
+		transform: perspective(300px); 
+	}
+	to { 
+		transform: perspective(300px) rotateY(360deg); 
+	}
+}
